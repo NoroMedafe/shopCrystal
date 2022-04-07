@@ -18,7 +18,8 @@ namespace shopCrystal
             Console.Write("Сколько у вас золота? "); userGold = Convert.ToInt32(Console.ReadLine());
             while (userGold > 0)
             {
-                Console.Write("Сколько кристаллов хотите купить?" +"\n"+ "Цена кристала " + costCrystal + " золотых: "); purchasedСrystals = Convert.ToInt32(Console.ReadLine());
+                Console.Write("Сколько кристаллов хотите купить?" +"\n"+ "Цена кристала " + costCrystal + " золотых: ");
+                purchasedСrystals = Convert.ToInt32(Console.ReadLine());
 
                 userGold -= purchasedСrystals * costCrystal;
                 userCrystals += purchasedСrystals;
