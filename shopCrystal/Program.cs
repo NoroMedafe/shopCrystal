@@ -24,6 +24,8 @@ namespace shopCrystal
                 userCrystal += purchasedСrystals;
 
                 Console.WriteLine("Ваш баланс:" + "\n" + "Осталось золота:" + userGold + " Имеется кристалов:" + userCrystal);
+                Console.ReadKey();
+                Console.Clear();
             }
             Console.WriteLine("Торги прекращены. У вас закончилось золото или у вас появился долг");
             Console.ReadKey();
